@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7B8819B51E2914C300A8817D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819B41E2914C300A8817D /* main.m */; };
+		7B8819BD1E29150600A8817D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819BC1E29150600A8817D /* Person.m */; };
+		7B8819C01E29186F00A8817D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819BF1E29186F00A8817D /* Student.m */; };
+		7B8819C31E291BFC00A8817D /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819C21E291BFC00A8817D /* Worker.m */; };
+		7B8819C61E291DB300A8817D /* Foot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819C51E291DB300A8817D /* Foot.m */; };
+		7B8819C91E291DEA00A8817D /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819C81E291DEA00A8817D /* Hand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		7B8819B11E2914C300A8817D /* Foundation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Foundation; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8819B41E2914C300A8817D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B8819BB1E29150600A8817D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7B8819BC1E29150600A8817D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7B8819BE1E29186F00A8817D /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7B8819BF1E29186F00A8817D /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		7B8819C11E291BFC00A8817D /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		7B8819C21E291BFC00A8817D /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		7B8819C41E291DB300A8817D /* Foot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foot.h; sourceTree = "<group>"; };
+		7B8819C51E291DB300A8817D /* Foot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foot.m; sourceTree = "<group>"; };
+		7B8819C71E291DEA00A8817D /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		7B8819C81E291DEA00A8817D /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				7B8819B41E2914C300A8817D /* main.m */,
+				7B8819BB1E29150600A8817D /* Person.h */,
+				7B8819BC1E29150600A8817D /* Person.m */,
+				7B8819BE1E29186F00A8817D /* Student.h */,
+				7B8819BF1E29186F00A8817D /* Student.m */,
+				7B8819C11E291BFC00A8817D /* Worker.h */,
+				7B8819C21E291BFC00A8817D /* Worker.m */,
+				7B8819C41E291DB300A8817D /* Foot.h */,
+				7B8819C51E291DB300A8817D /* Foot.m */,
+				7B8819C71E291DEA00A8817D /* Hand.h */,
+				7B8819C81E291DEA00A8817D /* Hand.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8819C91E291DEA00A8817D /* Hand.m in Sources */,
+				7B8819C61E291DB300A8817D /* Foot.m in Sources */,
+				7B8819BD1E29150600A8817D /* Person.m in Sources */,
+				7B8819C31E291BFC00A8817D /* Worker.m in Sources */,
 				7B8819B51E2914C300A8817D /* main.m in Sources */,
+				7B8819C01E29186F00A8817D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
