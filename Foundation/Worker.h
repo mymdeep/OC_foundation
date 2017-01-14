@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
-@interface Worker : Person
+@interface Worker : Person<Personable>
 
 @end

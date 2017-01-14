@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Hand.h"
 #import "Foot.h"
+//@class Hand;
+//@class Foot;
 @interface Person : NSObject
 {
     
@@ -19,9 +21,20 @@
     Foot *foots[2];
 
 }
+@property (nonatomic,assign) Foot* leftfoot;
+@property (nonatomic,retain) Foot* rightfoot;
+@property (nonatomic,assign) Hand* lefthand;
+@property (nonatomic,assign) Hand* righthand;
 -(void)setName:(NSString*) name;
 -(void)setSex:(NSString*) sex;
 -(void)setAge:(NSString*) age;
 -(void)print;
 -(void)desc;
+@end
+
+
+@protocol Personable <NSObject>
+
+-(void)info:(NSString*)name;
+
 @end

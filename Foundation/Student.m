@@ -12,4 +12,7 @@
 -(void)print{
     NSLog(@"学生：name:%@,sex:%@,age:%@",name,sex,age);
 }
+-(void)info:(NSString*)name{
+    NSLog(@"info");
+}
 @end

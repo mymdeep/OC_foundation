@@ -7,7 +7,6 @@
 //
 
 #import "Person.h"
-
 @implementation Person
 -(void)setName:(NSString*) n{
     name = n;
@@ -29,7 +28,13 @@
     return self;
 }
 -(void)desc{
-    [hands[0] desc];
-    [foots[0] desc];
+//    [hands[0] desc];
+//    [foots[0] desc];
+    [self.leftfoot desc];
+    [self.rightfoot desc];
+    [self.lefthand desc];
+    [self.rightfoot desc];
+    [_leftfoot desc];
+    
 }
 @end

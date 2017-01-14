@@ -13,6 +13,7 @@
 		7B8819C31E291BFC00A8817D /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819C21E291BFC00A8817D /* Worker.m */; };
 		7B8819C61E291DB300A8817D /* Foot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819C51E291DB300A8817D /* Foot.m */; };
 		7B8819C91E291DEA00A8817D /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819C81E291DEA00A8817D /* Hand.m */; };
+		7B8819CC1E2A115B00A8817D /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8819CB1E2A115B00A8817D /* NSString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		7B8819C51E291DB300A8817D /* Foot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foot.m; sourceTree = "<group>"; };
 		7B8819C71E291DEA00A8817D /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
 		7B8819C81E291DEA00A8817D /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		7B8819CA1E2A115B00A8817D /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		7B8819CB1E2A115B00A8817D /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				7B8819C51E291DB300A8817D /* Foot.m */,
 				7B8819C71E291DEA00A8817D /* Hand.h */,
 				7B8819C81E291DEA00A8817D /* Hand.m */,
+				7B8819CA1E2A115B00A8817D /* NSString.h */,
+				7B8819CB1E2A115B00A8817D /* NSString.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				7B8819C91E291DEA00A8817D /* Hand.m in Sources */,
 				7B8819C61E291DB300A8817D /* Foot.m in Sources */,
+				7B8819CC1E2A115B00A8817D /* NSString.m in Sources */,
 				7B8819BD1E29150600A8817D /* Person.m in Sources */,
 				7B8819C31E291BFC00A8817D /* Worker.m in Sources */,
 				7B8819B51E2914C300A8817D /* main.m in Sources */,
